@@ -26,19 +26,19 @@ Target: RiskLevel (Low, Mid, High)
 Missing Data:
 Lacks previous pregnancies, complications, miscarriages
 
-Risk Level Distribution
+### Risk Level Distribution
 
 <img width="852" alt="Screenshot 2025-04-03 at 7 20 30 PM" src="https://github.com/user-attachments/assets/899ba6b3-f2ae-45ca-bcdd-dd0d3086bae3" />
 
-Algorithms
+### Feature Importance
 
 <img width="855" alt="Screenshot 2025-04-03 at 7 21 05 PM" src="https://github.com/user-attachments/assets/8e716ed3-4123-4d4d-a93a-7ea2c1a72a50" />
 
-Feature Importance
+### Algorithms
 
 <img width="828" alt="Screenshot 2025-04-03 at 7 20 45 PM" src="https://github.com/user-attachments/assets/819ee15a-9213-448b-bafe-bd184793b6e0" />
 
-Model Results
+### Model Results
 
 <img width="902" alt="Screenshot 2025-04-03 at 7 21 23 PM" src="https://github.com/user-attachments/assets/09bd41cf-0bc3-4f04-b4fb-dd257ad5aba7" />
 
