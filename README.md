@@ -1,4 +1,4 @@
-# maternal_health_risk
+# Maternal Health Risk Classification
 An analysis of maternal risk in a developing country
 
 ## Research Question:
