@@ -40,5 +40,5 @@ Lacks previous pregnancies, complications, miscarriages
 
 ### Model Results
 
-<img width="902" alt="Screenshot 2025-04-03 at 7 21 23 PM" src="https://github.com/user-attachments/assets/09bd41cf-0bc3-4f04-b4fb-dd257ad5aba7" />
+<img width="658" alt="image" src="https://github.com/user-attachments/assets/955bf87c-5c54-4fa8-972d-1135cccd0409" />
 
