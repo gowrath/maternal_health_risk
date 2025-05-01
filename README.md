@@ -1,23 +1,33 @@
 # Maternal Health Risk Classification
-An analysis of maternal risk in a developing country
+An analysis of maternal risk in a developing country, Bangladesh.
+
 
 ## Research Question:
 How can machine learning methods improve the accuracy and efficiency of maternal health risk classification during pregnancy?
 
+
 ## Why It’s Interesting:
- ~810 maternal and 6,700 newborn deaths daily (WHO).
-Many maternal deaths are preventable.
-Early, accurate risk prediction can save lives, especially in under-resourced regions.
-Deep learning models can run quickly on local devices, no GPU needed.
+
+According to the World Health Organization (WHO), about 810 pregnant women and 6,700 newborns die every day (WHO, 2019, 2020). Despite advancements in medical care, many maternal deaths remain preventable, especially in developing countries. 
+
+Maternal health is a crucial aspect of public health, and accurately identifying high-risk pregnancies can significantly reduce maternal and infant mortality. Maternal risk is the likelihood of a woman experiencing adverse health outcomes during pregnancy or childbirth (Togunwa, Babatunde, Abdullah, 2023).
+
+Deep learning-based models offer a data-driven method to classify maternal health risks with high accuracy, aiding healthcare professionals in early intervention.
+
 
 ## Conclusions:
 
 Our best performing model found that systolic blood pressure (an indication of gestational diabetes), blood sugar, and body temperature were important feature contributions to maternal health risk, aligning with medical understanding.
 
+
 ## Dataset:
 
 Source: UCI Machine Learning Repository
 Origin: IoT monitoring systems in rural Bangladesh
+
+The maternal health risk dataset that we are using is from the UCI machine learning repository and was collected from different hospitals, community clinics, and maternal health care centers from rural areas of Bangladesh through an IoT risk monitoring system. There are six predictor variables: age, systolic blood pressure, diastolic blood pressure, blood sugar, body temperature, and heart rate. The target variable is risk level, ranging from low, mid, and high risk. 
+
+Other risk factors can include having given birth before, history of disorder during pregnancy, and miscarriage, which are not contained in our analysis (Raza, Siddiqui, Munir, et al 2022). 
 
 Size:
 1017 Samples, 7 features 
@@ -26,17 +36,15 @@ Variables:
 Features: Age, SystolicBP, DiastolicBP, Blood Sugar, Body Temp, Heart Rate
 Target: RiskLevel (Low, Mid, High)
 
-Missing Data:
-Lacks previous pregnancies, complications, miscarriages
-
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/680bf83a-2296-4cb3-8e21-0567be0c87ea" />
 
 
 ### Risk Level Distribution
 
-We had an imbalanced dataset, with most of our samples being low risk patients.
+We had an imbalanced dataset, with most of our samples being low risk patients. We corrected for this using SMOTE (synthetic minority oversampling technique).
 
 <img width="852" alt="Screenshot 2025-04-03 at 7 20 30 PM" src="https://github.com/user-attachments/assets/899ba6b3-f2ae-45ca-bcdd-dd0d3086bae3" />
+
 
 ### Feature Importance
 
